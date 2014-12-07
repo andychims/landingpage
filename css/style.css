@@ -46,3 +46,54 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*.clear {display: block;}
+*/
+/* MY CSS */
+
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+
+
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+}
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.top-navigation img {margin: 16px;}
+
+
+/*nav {
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: #fff;
+}
+
+#nav-left {
+	border: 1px solid blue;
+	display:block;
+width: 40px; 
+height:40px; 
+float: left;
+background-image:url("karma-logo.svg") 
+}
+
+#nav-right {border: 1px solid black; width: 200px; float: right;}*/
+
+header {clear:both;}
+
+.col3 {
+	widows: 33%; float: left;
+}
+
