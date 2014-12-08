@@ -65,10 +65,17 @@ div {
 
 
 /* Navigation Section */
+nav {
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+
 .top-navigation {
     background-color: #fff;
 }
-.top-navigation > .content {
+
+.content {
     width: 970px;
     height: 70px;
     margin: 0 auto;
@@ -99,9 +106,6 @@ div {
 .top-navigation .links li:hover {	
 	color: #4c5058;
 }
-/*
-header {clear:both;}
-*/
 
 .introduction {
 	background-image: url("first-background.jpg");
@@ -148,7 +152,40 @@ header {clear:both;}
 	background:green;
 }
 
-.col3 {
-	widows: 33%; float: left;
+/* FEATURES */
+
+.features {
+	clear:both;
+	height:25rem;
+	background-color: #fff;
 }
 
+.features .content {
+	height: 25em;
+	text-align: center;
+}
+
+.features h1 {
+	font-size: 3em;
+	color: black;
+	font-weight: 300;
+	margin: 80px;
+}
+
+.features h2 {
+	font-size: 1.5em;
+}
+
+ul.devices {
+	margin-bottom: 100px;
+}
+
+.devices li {
+	width:33%;
+	float: left;
+		/*debugging*/
+	border: 1px solid black;
+
+}
+/* FOOTER */
+footer {clear:both;}
