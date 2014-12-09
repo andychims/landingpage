@@ -56,12 +56,6 @@ table {
 */
 /* MY CSS */
 
-body {
-    background-color: LightGray;
-}
-div {
-    border: 1px solid Chocolate;
-}
 
 
 /* Navigation Section */
@@ -183,9 +177,6 @@ ul.devices {
 .devices li {
 	width:33%;
 	float: left;
-		/*debugging*/
-	border: 1px solid black;
-
 }
 /* FOOTER */
 footer {clear:both;}
